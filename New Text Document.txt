@@ -1,0 +1,19 @@
+import graphics.circle
+import graphics.rectangle
+import graphics.threedgraphics.cuboid
+import graphics.threedgraphics.sphere
+r = int(input("enter the radius:"))
+print("enter the length and breadth")
+l1,b1 = int(input()), int(input())
+print("enter the l,b,h of cuboid")
+l2,b2,h = int(input()),int(input()),int(input())
+print("enter the radius of sphere:")
+r1 = int(input())
+print("cirarea(r):", graphics.circle.cirarea(r))
+print("cirperimeter:",graphics.circle.cirperi(r))
+print("rectarea:",graphics.rectangle.recarea(l1,b1))
+print("rectperi:",graphics.rectangle.recperi(l1,b1))
+print("cuboidarea:",graphics.threedgraphics.cuboid.cubarea(l2,b2,h))
+print("spherearea:", graphics.threedgraphics.sphere.spherearea(r1))
+
+
